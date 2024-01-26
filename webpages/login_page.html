@@ -5,7 +5,9 @@
         <title>Login Page</title>
     </head>
     <body>
+        <div class="bg-image"></div>
         <div class="fill-box">
+            
             <h1>Login</h1>
             <form>
                 <label for="username">Username</label>
@@ -14,14 +16,16 @@
                     type="text"
                     id="username"
                     name="username"
-                    required>
+                    required placeholder="Username*">
                 <label for="password">Password</label>
                 <input
                     class="input-square"
                     type="password"
                     id="password"
                     name="password"
-                    required>
+                    required
+                    placeholder="Password*">
+                    <br><br>
                 <span>
                     <input type="checkbox" name="remember" id="remember">
                     <label for="remember">Remember me</label>
@@ -31,15 +35,19 @@
                         </b>
                     </span>
                 </span>
+                <br><br>
                 <button type="submit">Login</button>
             </form>
+            <br><br>
             <hr>
+            <br>
             <p>
                 <b>Doesn't have an account?
                     <a href="SignUp.html" target="_blank">Sign Up</a>
                 </b>
             </p>
-            <p></p>
+        
+            
         </div>
     </body>
 </html>
