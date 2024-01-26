@@ -38,3 +38,6 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+.fill-box form button:hover {
+    background-color: #5a6268;
+}
