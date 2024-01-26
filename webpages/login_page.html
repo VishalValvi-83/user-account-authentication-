@@ -9,28 +9,37 @@
             <h1>Login</h1>
             <form>
                 <label for="username">Username</label>
-                <input type="text" id="username" name="username" required>
-    
+                <input
+                    class="input-square"
+                    type="text"
+                    id="username"
+                    name="username"
+                    required>
                 <label for="password">Password</label>
-                <input type="password" id="password" name="password" required>
-                
-    
+                <input
+                    class="input-square"
+                    type="password"
+                    id="password"
+                    name="password"
+                    required>
+                <span>
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Remember me</label>
+                    <span class="Forgot">
+                        <b>
+                            <a href="Forgot.html">Forgot Username/Password</a>
+                        </b>
+                    </span>
+                </span>
                 <button type="submit">Login</button>
             </form>
             <hr>
             <p>
-                <b>
-                    Doesn't have an account?
-                    <a style="color: #000000;" href="SignUp.html"
-                        target="_blank">Sign Up</a>
+                <b>Doesn't have an account?
+                    <a href="SignUp.html" target="_blank">Sign Up</a>
                 </b>
             </p>
-            <p>
-                <b>Forgot</b>
-                <a style="color: #000000;" href="Forgot.html">
-                    <b>Username/Password</b>
-                </a>
-            </p>
-        </div>        
+            <p></p>
+        </div>
     </body>
 </html>
