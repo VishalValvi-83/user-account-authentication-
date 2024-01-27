@@ -41,7 +41,7 @@ nav li a:hover {
 .container {
     margin: 0 auto;
     max-width: 1200px;
-    padding: 0 15px;
+    padding: 5px 15px;
 }
 .collection {
     display: flex;
@@ -97,7 +97,7 @@ nav li a:hover {
 footer {
     background-color: #8d5353;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     
 }
