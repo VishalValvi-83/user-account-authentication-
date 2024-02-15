@@ -10,7 +10,9 @@ This project contains a simple login and signup pages built using HTML and CSS. 
 
 ## Screenshots
 
-![Login Page](https://github.com/your-username/repository-name/blob/main/images/login-page.png)
+![Login Page](Images/login-page.jpg)
+
+![Signup Page](Images/signup-page.jpg)
 
 ## Usage
 
